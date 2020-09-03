@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+#t01 {
+  background-color: #c1c2f1;
+}
+
+#t02 {
+  background-color: #c1c2f1;
+}
+
+
+</style>
+</head>
+<body style="font-family:Verdana">
+  
+  <h2>Opdrachten</h2>
+
+  <h2>Onderdeel 1:</h2>
+  
+  <h2>Intro:</h2>
+  
+  <h2>1. Wat is het verschil tussen het internet en het world wide web?</h2>
+  
+  <p><b>HTML:</b>
+  HTML (Hypertext Markup Language) is not a programming language. It is a markup language (opmaaktaal) that tells web browsers how to <i><u>structure </u></i>the web pages you visit. It is meant for the world wide web for creating web pages and web applications. Documents in HTML can be opened and read by a webbrowser and be displayed as a webpage. </p>
+  
+  Daarnaast is HTML een opmaaktaal zoals vele andere, met notaties voor het aangeven van een indeling in alinea's, van kopjes, nadruk in de tekst en tabellen. 
+  <br><br>
+  <b>World wide web:</b>
+  Het <b>wereldwijde web (www)</b>, ook wel met de Engelse term <b>"world wide web"</b> aangeduid, maar meestal kortweg <b>het web</b>, houdt in:<br><br>
+    •	een aantal technische afspraken voor het wereldwijd over het internet aanbieden en verbinden van allerhande documenten en computertoepassingen;<br>
+    •	de verzameling documenten en toepassingen die wereldwijd volgens dit systeem over het internet worden aangeboden.
+  <br><br>
+  <b>Het verschil:</b>
+  Met HTML kan je webpagina’s creëren die op het wereldwijd systeem (www)
+  aangeboden wordt over het internet.
+  
+  <h2>2. Wat is het verschil tussen HTML, CSS en JavaScript?</h2>
+
+  <b>HTML - Hypertext Markup Language (structuring the web):</b><br>
+  HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define. HTML is the foundation.
+  <br><br>
+  <b>CSS - Cascading Stylesheets (styling the web): </b><br>
+  CSS is used to style it and lay it out. CSS defines the look and layout of content. example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+  <br><br>
+  <b>Javascript (Dynamic client-side scripting):</b> 
+  JavaScript is the <b>Programming Language </b>for the Web. JavaScript can update and change both HTML and CSS. JavaScript is a programming language that allows you to implement complex things on web pages. Every time a web page does more than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved.
+
+  <h2>3. Wat is een HTML tag en een HTML element? Hoe open je een HTML tag en hoe sluit je een HTML tag. Maak hiervoor voorbeelden en leg uit.</h2>
+  <img src="./grumpy-cat-small.png"><br><br>
+  <b>•	The opening tag:</b> This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.<br>
+	<b>•	The content:</b> This is the content of the element. In this example, it is the paragraph text.<br>
+	<b>•	The closing tag: </b>This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.<br><br>
+The element is the opening tag, followed by content, followed by the closing tag.
+
+<h2>4. HTML gebruikt basis tags om structuur op te bouwen. De < html >, < head > en < body >. Geef voor elke element aan waarvoor het dient.</h2>
+  <b>1. < html ></ html >: </b>The < html > element. This element wraps all the content on the page. It is sometimes known as the root element. <br><br>
+  
+  <b> 2. < head ></ head >: </b>The < head > element. This element acts as a container for everything you want to include on the HTML page, that isn't the content the page will show to viewers. This includes keywords and a page description that would appear in search results, CSS to style content, character set declarations, and more.<br><br>
+  
+  <b>3. < body ></ body >: </b>The < body > element. This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.<br><br>
+
+ <h2> 5. Op HTML elementen kun je attributen gebruiken. Wat zijn HTML attributen ? Geef minimaal 5 attributen en maak voorbeelden waar je de attributen in toepast. </h2>
+
+  Elements can also have attributes. Attributes look like this: <br><br>
+
+  <img src="./grumpy-cat-attribute-small.png" alt="Italian Trulli"> <br> <br>
+
+  Attributes contain extra information about the element that won't appear in the content. In this example, <b>1. the class </b>attribute is an identifying name used to target the element with style information. (<b>for example </b>above)
+  <br><br>
+  An attribute should have:<br>
+    •	A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)<br>
+    •	The attribute name, followed by an equal sign.<br>
+    •	An attribute value, wrapped with opening and closing quote marks.<br><br>
+  <b>2. href: </b>This attribute's value specifies the web address for the link. <b>For example: </b>href="https://www.mozilla.org/".<br><br>
+  <b>3. title: </b>The title attribute specifies extra information about the link, such as a description of the page that is being linked to. <b>For example</b>, title="The Mozilla homepage". This appears as a tooltip when a cursor hovers over the element.<br><br>
+  <b>4. target:</b> The target attribute specifies the browsing context used to display the link. <b>For example</b>, target="_blank" will display the link in a new tab. If you want to display the linked content in the current tab, just omit this attribute.<br><br>
+  <b>5. video: </b>Specifies an image to be shown while the video is downloading, or until the user hits the play button. <b>For example: </b> <br><br>
+  < video controls poster="/images/w3html5.gif"><br>
+    < source src="movie.mp4" type="video/mp4"><br>
+    < source src="movie.ogg" type="video/ogg"><br>
+    Your browser does not support the video tag.
+  < /video>
+  
+  <h2>6. Waarom is een goede HTML Structuur belangrijk? Is deze code een goede structuur? Leg uit.</h2>
+  Een goede HTML structuur is belangrijk omdat het de basis neerzet voor de webpagina. Zonder een goede structuur raak je het overzicht kwijt. Ook kunnen andere programmeurs het overzicht goed zien. Daarnaast heeft de code een goede structuur omdat het goed opgebouwd is uit alle elementen die een volledige HTML pagina vormen. De volgorde is een standaard/juiste volgorde die gebruikt wordt.
+
+  <h2>7. Wat is het verschil tussen inline en block elementen?</h2>
+  Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content. 
+  <br><br>
+  <b>Inline element:</b>
+  <br><br>
+  <i>Code:</i><br>
+  < div>The following span is an <  class="highlight">inline element< /span>;
+  its background has been colored to display both the beginning and end of
+  the inline element's influence.< /div><br>
+  
+  In this example, the < div> block-level element contains some text. Within that text is a < span> element, which is an inline element. Because the < span> element is inline, the paragraph correctly renders as a single, unbroken text flow, like this:<br><br>
+  
+  <i>Output:</i><br>
+  The following span is an inline element; its background has been colored to display both the beginning and end of the inline element's influence.<br><br>
+  
+  <b>Block element:</b><br>
+  Now let's change that < span> into a block-level element, such as < p>:
+  <br><br>
+  <i>Code:</i><br>
+  < div>The following paragraph is a < p class="highlight">block-level element;< /p>
+  its background has been colored to display both the beginning and end of
+  the block-level element's influence.< /div><br><br>
+  
+  <i>Output:</i><br>
+  The following paragraph is a block-level element; its background has been colored to display both the beginning and end of the block-level element's influence.
+  <br><br>
+  The < p> element totally changes the layout of the text, splitting it into three segments: the text before the < p>, then the < p>'s text, and finally the text following the < p>.
+
+<h2>8. Wat betekent nesting? Codeer een voorbeeld met nesting erin.</h2>
+
+  U kunt elementen in andere elementen steken - we noemen dit nesten. Als we willen zeggen dat onze kat HEEL chagrijnig is, kunnen we het woord "heel" in een < strong>-element insluiten. Dat zorgt ervoor dat het woord wordt beklemtoond:<br>
+  
+  <p>Mijn kat is <strong>heel</strong> chagrijnig.</p>
+
+ <h2> 9. Sinds de komst van HTML5 zijn er elementen die betekenissen hebben. Wat wordt er bedoeld met HTML semantics?</h2>
+  <p>According to Dictionary.com, semantics refers to the correct interpretation of the meaning of a word or sentence.</p>
+  
+  <p>To use a word semantically is to use it in a way that is properly aligned with the meaning of the word. When we misuse a word we are not using it semantically.</p>
+  
+ <p> Many HTML tags have semantic meaning. That is, the element itself conveys some information about the type of content contained between the opening and closing tags.</p>
+  
+  <p>For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element.</p>
+  
+  <p>The semantic meaning of an h1 tag is that it is used to identify the most important header of a specific web page or section.</p>
+
+ <h2> Waarom is het gebruik van semantics belangrijk?</h2>
+
+  <p>When writing semantic markup, we use HTML tags to tell browsers something about the contents of the element. In semantic markup, tags are no longer just a way to get content to show up on a web page in a human-readable format.</p>
+  
+  <p>The tags themselves become a way to tell a machine (whether a browser, a computer, a smartphone, or another smart device) something about the meaning of the content.</p>
+  
+  <p>Good CSS can make bad markup invisible to the average website visitor. However, no amount of styling will make bad markup more meaningful to a computerized visitor such as a search engine web crawler, browser translation tools, or assistive technologies such as screen readers.</p>
+  
+  <p>According to Bruce Lawson, the semantic use of HTML elements “enhances accessibility, searchability, internationalization, and interoperability.” In other words, writing semantic markup is mandatory if you want your website to be accessible to all visitors, to achieve a high search engine ranking, to be available to visitors from around the world, and to interface effectively with other web services.</p>
+  
+  <p>Writing semantic markup is about creating web content that is both human and computer readable. When the web can be read equally well by both humans and computers, it becomes more accessible since computers are better able to analyze its contents, index it, deliver it, and developers are better able to tie different sources of information together into new web services.</p>
+
+<h2>10. Wat voor content zou je in de volgende elementen gebruiken?
+Geef in je antwoord voor elk element een toelichting.</h2>
+
+● < header> A container to be used for a web page header which typically contains the site logo, heading elements, and site navigation.
+<br><br>
+Ik zou het menu als content gebruiken omdat dat het eerste is waar men naar zoekt.
+<br><br>
+● < footer> A container to be used for a web page footer which typically contains authorship, contact, and copyright information in addition to navigational links and a link back to the top of the web page.
+<br><br>
+Ik zou contact informatie gebruiken omdat dat het laatste is waar men naar zoekt.
+<br><br>
+● < main> A high-level element used to contain all of the content that is unique to a single web page and not repeated across multiple web pages.
+<br><br>
+Ik zou hier de geschiedenis van het bedrijf plaatsen omdat dat uniek en eenmalig is voor de website.
+<br><br>
+● < nav> An element to contain blocks of site navigation links. This element is typically placed in the page header and footer, and may also be used in an aside (sidebar) element as well.
+<br><br>
+Ik zou hier de verschillende menu titels plaatsen omdat je met dit element kan navigeren.
+<br><br>
+● < section> The section element is used to mark off sections of a document, such as chapters or major sections of a long form post.
+<br><br>
+Ik zou hier de verschillende hoofdstukken van het content van de website plaatsen omdat het je met deze element secties kan begrenzen.
+<br><br>
+● < aside> Use to identify content that is related to the main content on the page but not part of the primary flow of the document. For example, the aside element may contain a glossary definition of a term that appears in a blog post or it may contain advertisements related to the contents of the page.
+<br><br>
+Ik zou hier gerelateerde reclames plaatsen over het content van de website.
+<br><br>
+● < article> The article element is used to identify a block of content suitable for reuse and syndication in other settings, such as a blog post or technical article.
+<br><br>
+Ik zou hier technische artikel plaatsen over het content omdat het herbruikbaar is.
+
+<h2>Headers</h2>
+
+<h2>11. Onderzoek en leg uit waarom headers zowel belangrijk zijn voor zoekmachines als voor de gebruikers.</h2>
+
+<b>Headers Make Pages Scannable</b><br>
+Most people rarely read articles in their entirety online. They scan them. The only time they read every word of an article is when they are highly interested in the topic.
+<br><br>
+Headers make it easier for people to scan the page for information. They often start with the first header. If it interests them, they will move on to a subheading. The subheading usually gives them one piece of the information they were looking for, and then the next subheading gives them another piece of information. If they want details, they will read what is in between those subheadings.
+<br><br>
+Using headers that accurately reflect what is in your article will help to make sure people actually read your content. 
+<br><br>
+<b>Headers Help Your SEO</b><br>
+Headers are an important part of on-page SEO. Search engines, such as Google, love headers for the same reason people do — headers make reading content easy and quick. When a search engine bot can crawl a website page by going from one heading to the next, it can grasp the gist of the information. This way it knows which online searches to rank your pages in.
+<br><br>
+When creating your headers, think about the keywords you want your page to rank for. If you can’t naturally use these keywords in your headers, then it’s possible that you need to rethink the copy on the rest of your page. Your headers should provide a general overview of the content on your page or in your blog post, and you want that content to be relevant to the searches you’d like to rank for in Google.
+<br><br>
+<b>Usability for Mobile Devices</b><br>
+As we move forward into the world of voice search, headers are becoming even more important. When someone uses a mobile device to search online, Google will scan website pages paying particular attention to headers. If the headers match what the person is searching for, it will deliver the content.
+This means that if your page doesn’t have any headers, there’s a good chance the device will not pick up that it is relevant to the search. This leads to lost opportunities for improving your SEO.
+
+<h2>12. Onderzoek hoe je een text-header aanmaakt en reproduceer het volgende resultaat:</h2>
+
+<h1>Headings opdrachten</h1>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+ 
+<h2>Paragrafen</h2>
+
+<h2>13. Onderzoek wat een paragraaf tag is en hoe hij gebruikt wordt. Geef hier een voorbeeld bij.</h2>
+
+Het < p>-element van HTML vertegenwoordigt een paragraaf van tekst. Paragrafen worden meestal vertegenwoordigd in visuele media als blokken tekst, die worden gescheiden van aangrenzende blokken door verticale witruimte en/of inspringing op de eerste regel.
+<br><br>
+<i>Voorbeeld:</i><br>
+
+<p>Dit is de eerste paragraaf met tekst. Dit is de eerste paragraaf met tekst.
+	Dit is de eerste paragraaf met tekst. Dit is de eerste paragraaf met tekst.</p>
+
+<p>Dit is de tweede paragraaf met tekst. Dit is de tweede paragraaf met tekst.
+	Dit is de tweede paragraaf met tekst. Dit is de tweede paragraaf met tekst.</p>
+ 
+<h2>14. Onderzoek en leg het verschil tussen het stoppen van alle tekst in één paragraaf tag, en het opsplitsen van de tekst in meerdere tags uit.</h2>
+
+Het verschil is dat je met gebruik van meerdere tags de tekst kan opsplitsen en als je alle tekst in een paragraaf tag doet krijg je een blok tekst zonder dat het opgesplitst is.
+ 
+<h2>15. Reproduceer het volgende resultaat door gebruik te maken van text-headers en de paragraaf tags.</h2>
+
+
+
+<h1><p>Mijn eerste website</h1></p>
+
+<h2><p>Mijn eerste sub-kop</h2></p>
+
+<p>The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own. The tiger once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin, and in the south from the foothills of the Himalayas to Bali in the Sunda islands. Since the early 20th century, tiger populations have lost at least 93% of their t</p>
+
+<h3><p>Mijn tweede sub-kop</h3></p>
+
+<p>The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own. The tiger once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin, and in the south from the foothills of the Himalayas to Bali in the Sunda islands. Since the early 20th century, tiger populations have lost at least 93% of their <p>
+
+<p>The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own. The tiger once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin, and in the south from the foothills of the Himalayas to Bali in the Sunda islands. Since the early 20th century, tiger populations have lost at least 93% of their <p>
+ 
+<h2>16. Voeg een Horizontal rule toe en reproduceer het volgende resultaat.</h2>
+
+  <h1><p>Mijn eerste website</h1></p>
+  
+  <h2><p>Mijn eerste sub-kop<h2></p>
+  
+  <p>Tekst</p>
+  
+  <h3><p>Mijn tweede sub-kop</h3></p>
+  
+  <p>Tekst<p>
+  
+  <p>Tekst<p>
+  
+  <hr>
+  
+  <h5><p> Footer </h5></p>
+  
+  Deze website is gebouwd vanuit de Techgrounds Academy.
+ 
+<h2>17. Voeg een link tag toe en reproduceer het volgende resultaat in de footer.</h2>
+
+<h2><p>Footer</h2></p>
+
+Deze website is gebouwd vanuit de <a href="https://www.techgrounds.nl">Techgrounds Academy.</a>
+ 
+<h2>18. Onderzoek welke 4 attributen een link tag kan hebben, leg uit wat deze doen en voeg deze als voorbeeld toe op je website.</h2>
+
+<b>To link an external stylesheet</b>, you'd include a < link> element inside your < head> like this:
+
+<br><br>
+Example:
+< link href="main.css" rel=“stylesheet"><br><br>
+
+This simple example provides the path to the stylesheet inside an href attribute, and a rel attribute with a value of stylesheet. The rel stands for "relationship", and is probably one of the key features of the < link> element — the value denotes how the item being linked to is related to the containing document.<br><br>
+
+2. En 3. A rel value of preload indicates that the browser should preload this resource (see Preloading content with rel="preload" for more details), with the <b>as attribute</b> indicating the specific class of content being fetched. The <b>crossorigin attribute </b>indicates whether the resource should be fetched with a CORS request.
+<br><br>
+Example:
+< link rel="preload" href="myFont.woff2" as="font"
+      type="font/woff2" crossorigin=“anonymous”>
+<br><br>
+ 4. You can also provide a media type or query inside a<b> media attribute</b>; this resource will then only be loaded if the media condition is true. 
+ <br><br>
+Example:
+< link href="print.css" rel="stylesheet" media="print">
+< link href="mobile.css" rel="stylesheet" media="screen and (max-width: 600px)">
+
+<h2>Onderdeel 2 - HTML Elementen</h2>
+
+<h2>Opdrachten</h2>
+
+<h2>Image, audio & video</h2>
+
+<h2>1. Bij het inladen van een bestand is het noodzakelijk om de locatie van het bestand aan te geven. Dit kan op 2 manieren:<br>
+● Absolute path<br>
+● Relative path<br>
+Wat houden deze 2 paths in?</h2>
+
+An absolute path refers to the complete details needed to locate a file or folder, starting from the root element and ending with the other subdirectories. Absolute paths are used in websites and operating systems for locating files and folders.
+An absolute path is also known as an absolute pathname or full path.
+<br><br>
+There are two types of paths: absolute and relative paths. An absolute path always contains the root elements and the complete list of directories to locate the specific file or folder. All the information required to locate the file or folder is available in the absolute path. This is different from a relative path, which is often combined with other paths to access the file. When it comes to websites, the absolute paths always contain the domain name of the website. However, in the case of a relative path, it only points to a relative link.
+<br><br>
+It is for these reasons that relative paths are used when linking within pages or files within a site, whereas absolute paths can be used anywhere and are needed when linking to an external file/folder on a different website. In the case of operating systems, the absolute path can be determined by right-clicking on the file/folder and then selecting the “properties” option.
+<br><br>
+Voorbeeld absolute path:<br>
+https://RealHosting.nl/contact/
+<br><br>
+Voorbeeld relative path:<br>
+/contact
+
+<h2>2. Zoek uit welke formaat afbeeldingen er nog meer kan zijn.</h2>
+<b>Abbreviation</b><br>
+APNG<br>
+GIF<br>
+ICO<br>
+JPEG<br>
+PNG<br>
+SVG<br>
+
+<h2>3. Zoek uit welke browsers er zijn en maak een lijst van je antwoord.</h2>
+Amaya<br>
+AMosaic<br>
+AppliArt Browser<br>
+Arachne<br>
+Arora<br>
+Avant Browser<br>
+AWeb<br>
+Blazer<br>
+Brave<br>
+Camino<br>
+Cello<br>
+CoolNovo<br>
+Classilla<br>
+CometBird<br>
+Comodo Dragon<br>
+CrazyBrowser<br>
+Deepnet Explorer<br>
+Dillo<br>
+Emacs-w3m<br>
+Epic<br>
+Flock<br>
+Fresco<br>
+Galeon<br>
+Google Chrome<br>
+HotJava<br>
+IBrowse<br>
+iCab<br>
+Internet Explorer<br>
+IceCat<br>
+Iceweasel<br>
+K-Meleon<br>
+Kazehakase<br>
+KKman<br>
+Konqueror<br>
+Links<br>
+Links2<br>
+Lunascape<br>
+Lynx<br>
+Maxthon<br>
+Microsoft Edge<br>
+Midori<br>
+Mosaic<br>
+Mozilla Firefox<br>
+Mozilla Suite<br>
+MSN Explorer<br>
+Netscape Navigator<br>
+NetSurf<br>
+Nintendo DS Browser<br>
+Off By One<br>
+OmniWeb<br>
+Opera<br>
+Oregano<br>
+Origyn Web Browser<br>
+Pale Moon<br>
+PSP Browser<br>
+rekonq<br>
+RockMelt<br>
+Safari<br>
+SeaMonkey<br>
+Shiira<br>
+SkyFire<br>
+Sleipnir<br>
+SlimBrowser<br>
+SlipKnot<br>
+Sputnik<br>
+SRWare Iron<br>
+SunriseBrowser<br>
+Swift<br>
+TheWorld Browser<br>
+UC<br>
+Vivaldi<br>
+Voyager<br>
+w3m<br>
+Web<br>
+WebExplorer<br>
+WebsterXL<br>
+Wii Browser<br>
+Wyzo<br>
+XBrowser <br>
+
+<h2>4. Onderzoek hoe het plaatsen van een foto gedaan wordt en plaats deze boven en onderaan je website door zowel gebruik te maken van de absolute path en relative path.</h2>
+
+An absolute file path is the full URL to a file:<br>
+Example:<br>
+<img src="https://www.w3schools.com/images/picture.jpg" alt=“Mountain"><br>
+
+A relative file path points to a file relative to the current page.<br><br>
+
+In the following example, the file path points to a file in the images folder located at the root of the current web:
+<br><br>
+Example:
+<img src="./TG_Logo.d5934b2d.png" alt=“Mountain">
+
+<h2>5. Wat houdt de alt attribute in? En waarom is het handig om de alt attribute gebruiken?</h2>
+
+The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.<br><br>
+
+The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+<h2>6. Laadt dit bestand in als een audio op het scherm.</h2>
+<audio src="./explosie.mp3" controls loop> </audio><br>
+<br>
+<h2>7. Speel een audio bestand af met < source> tag. Leg uit wat hier het voordeel van is.</h2>
+   
+The < source> tag is used to specify multiple media resources for media elements, such as < video>, < audio>, and < picture>.<br><br>
+
+The < source> tag allows you to specify alternative video/audio/image files which the browser may choose from, based on browser support or viewport width. The advantage is that the browser will choose the first < source> it supports. 
+  <br><br>  
+  <audio controls>
+        <source src="./explosie.mp3">
+        <source src="./explosie.mp3">
+        <p>If you are reading this, it is because your browser does not support the HTML 'audio' element.</p>
+        </audio>
+        <br>
+        <br>
+
+<h2>8. Zoek een willekeurig video en sla dit op in je computer. Laadt dit bestand in als een video op het scherm.</h2>
+<br>
+<br>
+<video controls>
+    <source src="./mov_bbb.mp4" type="video/mp4">
+    <source src="./mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  <br>
+  <br>
+<h2>Lijsten</h2>
+<h2>9. Maak gebruik van de verschillende soorten lijsten om het volgende resultaat op je webpagina weer te geven.</h2>
+   
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        
+
+            <ol>
+            <li>item1</li>
+            <li>item2</li> 
+            <dd>1. sub-item1</dd>
+            <dd>2. sub-item2</dd>
+            <li>item 3</li>
+        </ol>
+            
+
+            <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    
+            <ul>
+           <li>item 1</li> 
+           <li>item 2</li>
+           <ul>
+           <li>sub item 1</li>
+           <li>sub item 2</li></ul>
+            <li>item 3</li>
+        </ul>
+           
+            <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <ol>
+            <dd><li>sub item 1</dd></li>
+            <dd><li>sub item 2</dd></li>
+        </ol>
+            <li>item 3</li>
+        </ul>
+        </div>
+<h2>10. Bouw een navigatiebalk door gebruik te maken uit een lijst dat bestaat uit de volgende onderdelen: </h2>
+        ○ Tigers<br>
+        ○ Lions<br>
+        ○ Monkeys<br>
+        ○ Hippopotaumus<br>
+
+        <ul>
+            <li><a href="tigers.asp">Tigers</a></li>
+            <li><a href="lions.asp">Lions</a></li>
+            <li><a href="monkeys.asp">Monkeys</a></li>
+            <li><a href="Hippopotaumus.asp">Hippopotaumus</a></li>
+          </ul>
+
+<h2>11. Creëer nu voor elk onderdeel een header en een bijbehorende stuk tekst en zorg ervoor dat door te klikken op de links in de navigatiebalk je gerefereerd wordt naar het bijbehorende onderdeel. </h2>
+
+<nav>
+    <ul>
+    <li><a href="#Tigers">Tigers</a></li>
+    <li><a href="#Lions">Lions</a></li>
+    <li><a href="#Monkeys">Monkeys</a></li>
+    <li><a href="#Hippopotaumus">Hippopotaumus</a></li>
+</ul>
+</nav>
+
+<h3 id="Tigers">Tigers</h3>
+The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own.
+
+The tiger once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin, and in the south from the foothills of the Himalayas to Bali in the Sunda islands. Since the early 20th century, tiger populations have lost at least 93% of their historic range and have been extirpated in Western and Central Asia, from the islands of Java and Bali, and in large areas of Southeast and South Asia and China. Today's tiger range is fragmented, stretching from Siberian temperate forests to subtropical and tropical forests on the Indian subcontinent and Sumatra.
+
+The tiger is listed as endangered on the IUCN Red List. As of 2015, the global wild tiger population was estimated to number between 3,062 and 3,948 mature individuals, with most of the populations living in small pockets isolated from each other. India currently hosts the largest tiger population. Major reasons for population decline are habitat destruction, habitat fragmentation and poaching. Tigers are also victims of human–wildlife conflict in particular in range countries with a high human population density.
+
+The tiger is among the most recognisable and popular of the world's charismatic megafauna. It featured prominently in ancient mythology and folklore and continues to be depicted in modern films and literature, appearing on many flags, coats of arms and as mascots for sporting teams. The tiger is the national animal of India, Bangladesh, Malaysia and South Korea.
+
+<h3 id="Lions">Lions</h3>
+The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It is most recognisable for its muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane. With a typical head-to-body length of 184–208 cm (72–82 in) they are larger than females at 160–184 cm (63–72 in). It is a social species, forming groups called prides. A lion pride consists of a few adult males, related females and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, the species typically does not.
+
+Typically, the lion inhabits grasslands and savannas, but is absent in dense forests. It is usually more diurnal than other big cats, but when persecuted it adapts to being active at night and at twilight. In the Pleistocene, the lion ranged throughout Eurasia, Africa and North America, but today it has been reduced to fragmented populations in sub-Saharan Africa and one critically endangered population in western India. It has been listed as Vulnerable on the IUCN Red List since 1996 because populations in African countries have declined by about 43% since the early 1990s. Lion populations are untenable outside designated protected areas. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes for concern.
+
+One of the most widely recognised animal symbols in human culture, the lion has been extensively depicted in sculptures and paintings, on national flags, and in contemporary films and literature. Lions have been kept in menageries since the time of the Roman Empire and have been a key species sought for exhibition in zoological gardens across the world since the late 18th century. Cultural depictions of lions were prominent in the Upper Paleolithic period; carvings and paintings from the Lascaux and Chauvet Caves in France have been dated to 17,000 years ago, and depictions have occurred in virtually all ancient and medieval cultures that coincided with the lion's former and current ranges.
+<h3 id="Monkeys">Monkeys</h3>
+Monkey is a common name that may refer to groups or species of mammals, in part, the simians of infraorder Simiiformes. The term is applied descriptively to groups of primates, such as families of New World monkeys and Old World monkeys. Many monkey species are tree-dwelling (arboreal), although there are species that live primarily on the ground, such as baboons. Most species are also active during the day (diurnal). Monkeys are generally considered to be intelligent, especially the Old World monkeys of Catarrhini.
+
+Simians and tarsiers emerged within haplorrhines some 60 million years ago. New World monkeys and catarrhine monkeys emerged within the simians some 35 million years ago. Old World monkeys and Hominoidea emerged within the catarrhine monkeys some 25 million years ago. Extinct basal simians such as Aegyptopithecus or Parapithecus [35-32 million years ago], eosimiidea and sometimes even the Catarrhini group are also considered monkeys by primatologists.[3][4][5][6][7][8][9]
+
+Lemurs, lorises, and galagos are not monkeys; instead they are strepsirrhine primates. Like monkeys, tarsiers are haplorhine primates; however, they are also not monkeys.
+
+Apes emerged within "monkeys" as sister of the Cercopithecidae in the Catarrhini, so cladistically they are monkeys as well. There has been resistance to directly designate apes (and thus humans) as monkeys, so "Old World monkey" may be taken to mean the Cercopithecoidea or the Catarrhini.[10][11][12][13][14][15][9][16][17] That apes are monkeys was already realized by Georges-Louis Leclerc, Comte de Buffon in the 18th century.[18][19]
+
+Monkeys, including apes, can be distinguished from other primates by having only two pectoral nipples, a pendulous penis, and a lack of sensory whiskers
+<h3 id="Hippopotaumus">Hippopotaumus</h3>
+The hippopotamus (/ˌhɪpəˈpɒtəməs/ HIP-ə-POT-ə-məs;[3] Hippopotamus amphibius), also called the hippo, common hippopotamus or river hippopotamus, is a large, mostly herbivorous, semiaquatic mammal and ungulate native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis or Hexaprotodon liberiensis). The name comes from the ancient Greek for "river horse" (ἱπποπόταμος). After the elephant and rhinoceros, both of which are found in Africa, the hippopotamus is the third-largest type of land mammal and the heaviest extant artiodactyl. Despite their physical resemblance to pigs and other terrestrial even-toed ungulates, the closest living relatives of the Hippopotamidae are cetaceans (whales, dolphins, porpoises, etc.) from which they diverged about 55 million years ago.
+
+Hippos are recognisable by their barrel-shaped torsos, wide-opening mouths revealing large canine tusks, nearly hairless bodies, columnar legs and large size; adults average 1,500 kg (3,310 lb) for males and 1,300 kg (2,870 lb) for females. Despite its stocky shape and short legs, it is capable of running 30 km/h (19 mph) over short distances.
+
+Hippos inhabit rivers, lakes, and mangrove swamps, where territorial males preside over a stretch of river and groups of five to thirty females and young hippos. During the day, they remain cool by staying in the water or mud; reproduction and childbirth both occur in water. They emerge at dusk to graze on grasses. While hippos rest near each other in the water, grazing is a solitary activity and hippos are not territorial on land. The hippo is among the most dangerous animals in the world due to its highly aggressive and unpredictable nature. They are threatened by habitat loss and poaching for their meat and ivory canine teeth.
+<br><br>
+
+<h2>Onderdeel 3 - Forms & Tabellen</h2>
+
+<h2>Opdrachten </h2>
+
+<h2>HTML Forms</h2>
+
+<h2>1. Maak een HTML form waarbij de gebruiker zijn naam en achternaam in kan vullen.</h2>
+
+<form>
+<label for="achternaam">Achternaam:</label>
+<input type="text"><br>
+<label for="voornaam">Voornaam:</label>
+<input type="text">
+</form>
+
+<h2>2. Naast input text fields zijn er ook nog andere input fields. Zoals: </h2>
+
+● radiobutton <form action="">
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+  </form>
+● checkbox: <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+● password: <label for="pwd">Password:</label>
+<input type="password" id="pwd" name="pwd"><br>
+● reset: <input type="reset"><br>
+● submit: <input type="submit"><br>
+● date: <label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br>
+● search: <label for="gsearch">Search Google:</label>
+<input type="search" id="gsearch" name="gsearch"><br>
+● time: <label for="appt">Select a time:</label>
+<input type="time" id="appt" name="appt"><br>
+● hidden:  <input type="hidden" id="custId" name="custId" value="3487"><br>
+● email: <label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+
+
+<h2>
+3. Maak een input email field met een submit knop.
+tip: wat gebeurt er wanneer je op de submit knop clickt met een random text?</h2>
+Dan zegt die: voer een email adres in.<br><br>
+<form action="/action_page.php">
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit">
+</form>
+<h2>
+4. Een formulier kun je ook groeperen. Zie hieronder voor een voorbeeld:</h2>
+
+<table> 
+  <thead>
+<b>Persoonsgegevens</b> <br><br>
+</thead> 
+<tbody>
+  <tr>
+    <form>
+      <label for="achternaam">Achternaam:</label>
+      <input type="text"><br><br>
+      <label for="voornaam">Voornaam:</label>
+      <input type="text"><br>
+      </form>
+</tr>
+<br>
+  <tr>
+    <label for="birthday">Geboortedatum:</label>
+    <input type="date" id="birthday" name="birthday" value="mm/dd/yyyy"><br><br>
+ </tr>
+  <tr> 
+    <form action="">
+      <input type="radio" name="gender" value="male"> M:
+      <input type="radio" name="gender" value="female"> V:<br><br>
+    </form>
+  </tr>
+  <tr> 
+  <label for="postcode">Postcode:</label>
+  <input type="text"><br><br>
+  </tr>
+  <tr> 
+    <label for="Adres">Adres:</label>
+    <input type="text"><br><br>
+    </tr>
+  </tbody>
+  <tfoot>
+    <input type="submit">
+    <input type="reset">
+ </tfoot>
+  </table>
+
+<h2>5. Naast input element heb je ook een select element. Hiermee kan je een dropdown list maken. Maak een drop down list.</h2>
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<h2>6. We hebben nu geleerd hoe je dropdown list, radiobuttons en checkboxes maak. Dit zijn 3 verschillende manieren om de gebruiker een keuze te laten maken. Benoem voor dropdown list, radio buttons en checkboxes een situatie waar je in kan gebruiken en leg dat uit?</h2>
+
+<b>Dropdown list: </b>laat meerdere keuzes in een handige overzicht zien, waarbij je direct kunt zoeken naar de juiste keuze. Dit zou ik doen wanneer je al weet wat je gaat kiezen en het slechts een kwestie is van zoeken en selecteren. Handig voor lange lijsten.<br><br>
+<b>Radio buttons: </b>laat je de kiezers maar 1 keuze hanteren. Dus dit zou ik gebruiken wanneer we zoeken naar de juiste keuze.<br><br>
+<b>Checkboxes:</b> laat je de kiezers meerdere keuzes aanvinken. Dus dit zou ik gebruiken wanneer er de mogelijkheid is om meerdere keuzes als resultaat te zien.<br><br>
+
+<h2>7. Maak een reserveringsformulier om een sport te reserveren. In dit formulier willen we graag het volgende weten:</h2>
+● Naam van dat persoon<br>
+● Off hij/zij lidmaatschap heeft<br>
+● E-mail van dat persoon<br>
+● Type sport om te reserveren. Keuze uit: tafeltennis, badminton of squash<br>
+● Datum en tijdstip om te reserveren<br>
+● Een checkbox waarbij de gebruiker akkoord gaat over de reserverings
+voorwaardes<br>
+● Een submit knop<br>
+
+<h3>Reserveringsformulier sport</h3>
+
+<form action="/action_page.php">
+  <label for="fname">Voornaam:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Achternaam:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  Heb je een lidmaatschap?<br>
+  <form action="">
+    <input type="radio" name="lidmaatschap" value="Ja"> Ja<br>
+    <input type="radio" name="lidmaatschap" value="Nee"> Nee<br>
+  </form>
+</form> <br>
+<form action="/action_page.php">
+    <label for="email">Vul uw email in:</label>
+    <input type="email" id="email" name="email">
+</form><br>
+<form>
+<label for="sport">Kies uw sport:</label>
+  <select name="sport" id="sport>
+    <option value="badminton">Badminton</option>
+    <option value="squash">Squash</option>
+    <option value="tafeltennis">Tafeltennis</option></select>
+</form>
+<br>
+<label for="birthdaytime">Datum en tijdstip voor reservering:</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">  <br><br>
+  <input type="checkbox" id="akkoord" name="akkoord" value="Akkoord">
+  <label for="Akkoord"> Ik ga akkoord met de reserveringsvoorwaardes.</label><br><br>
+  <input type="submit"><br>
+
+<h2>8. Maak een reserveringsformulier om een boek te reserveren. In dit formulier willen we graag het volgende weten:</h2>
+● Naam van dat persoon<br>
+● Telefoonnummer<br>
+● E-mail van dat persoon<br>
+● Naam van dat boek<br>
+● Aantal boeken om te reserveren. Het aantal moet minimaal 1 en maximaal 5 zijn.<br>
+● Een submit knop<br>
+<h3>Reserveringsformulier boek</h3>
+<form action="/action_page.php">
+    <label for="fname">Voornaam:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Achternaam:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+<label for="Telefoonnummer">Telefoonnummer:</label>
+<input type="text" id="Telefoonnummer" name="Telefoonnummer" required
+           minlength="4" maxlength="10" size="10"><br><br>
+
+        <form action="/action_page.php">
+            <label for="email">Vul uw email in:</label>
+            <input type="email" id="email" name="email">
+        </form><br>
+
+        <form action="/action_page.php">
+            <label for="fname">Naam van het boek</label>
+            <input type="text" id="fname" name="fname" ><br>
+            <br>
+            <label for="books">Aantal boeken</label>
+            <select name="aantal" id="boeken">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="4">5</option>
+              </select><br><br>
+        <input type="submit"><br>
+<p>
+<h2>9. Bouw nu zelf een formulier met wat je hiervoor hebt geleerd.</h2>
+
+<h3>Reserveringsformulier restaurant</h3>
+<form action="/action_page.php">
+  <label for="fname">Voornaam:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Achternaam:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <label for="Telefoonnummer">Telefoonnummer:</label>
+  <input type="text" id="Telefoonnummer" name="Telefoonnummer" required
+             minlength="4" maxlength="10" size="10"><br><br>
+
+<label for="birthday">Datum van reservering:</label>
+<input type="date" id="birthday" name="birthday"><br><br>
+
+<label for="appt">Tijdstip van reservering:</label>
+<input type="time" id="appt" name="appt"
+    min="09:00" max="18:00" required>
+<small>Openingstijden zijn: 5pm tot 10pm</small><br><br>
+
+<form action="/action_page.php">
+  <label for="quantity">Aantal personen: (Tussen 1 tot 50):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="50">
+</form><br>
+
+<input type="submit">
+
+<h2>10. Om een tabel te maken heb je volgende elementen nodig: Geef voor elke element een definitie.</h2>
+
+● < table>: definieert een HTML tabel. <br>
+● < thead>: The < thead> tag is used to group header content in an HTML table. <br>
+
+The < thead> element is used in conjunction with the < tbody> and < tfoot> elements to specify each part of a table (header, body, footer). <br>
+● < tbody>: The < tbody> tag is used to group the body content in an HTML table. <br>
+● < tfoot>: The < tfoot> tag is used to group footer content in an HTML table. <br>
+● < th>: defines a header cell in an HTML table <br>
+● < tr>: defines a row in an HTML table. <br>
+● < td>: defines a standard data cell in an HTML table <br>
+
+<h2>
+11. Maak een tabel met table element.</h2>
+
+<table>
+  <table id="t01">
+  <tr>
+    <th>Voornaam</th>
+    <th>Achternaam</th>
+    <th>Leeftijd</th>
+    <th>Telefoonnr</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>41</td>
+    <td>+31 12345678</td>
+  </tr>
+  <tr>
+    <td>Steven </td>
+    <td>Smith</td>
+    <td>32</td>
+    <td>+31 12345678</td>
+  </tr>
+  <tr>
+    <td>Alexander</td>
+    <td>Beave</td>
+    <td>16</td>
+    <td>+31 12345678</td>
+  </tr>
+  </tr>
+</table>
+<h2>
+12. Maak een agenda tabel met table element.</h2>
+
+<table>
+  <table id="t02">
+  <tr>
+    <th>MA</th>
+    <th>DI</th>
+    <th>WO</th>
+    <th>DO</th>
+    <th>VR</th>
+  </tr>
+  <tr>
+    <td>Afspraak met tandarts</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Sporten</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Huiswerk maken</td>
+    <td>Werken</td>
+    <td>Werken</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Afspraak met tandarts</td>
+    <td></td>
+    <td></td>
+    <td>Werken</td>
+    <td>Bij vrienden</td>
+  </tr>
+  </tr>
+</table>
+<h2>
+13. Voor het maken van een tabel kan je ook gebruik maken van colspan en rowspan attributen. Zoek uit wat colspan en rowspan attribuut doet en meet het volgende:
+</h2>
+<table>
+  <tr>
+    <th>Sport</th>
+    <th>Aantal recreanten</th>
+    <th>Aantal competitie spelers</th>
+    <th>Totale deelnemers</th>
+  </tr>
+  <tr>
+    <td rowspan="1">Badminton</td>
+    <td>10</td>
+    <td>30</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Racket sport Tafeltennis</td>
+    <td>59</td>
+    <td>30</td>
+    <td>89</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Tennis</td>
+    <td>159</td>
+    <td>130</td>
+    <td>189</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Tennis 159 130</td>
+    <td>189</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Voetbal</td>
+    <td>88</td>
+    <td>40</td>
+    <td>128</td>
+  </tr> 
+  <tr>
+    <td rowspan="1">Ballsport Basketbal</td>
+    <td>60</td>
+    <td>40</td>
+    <td>100</td>
+  </tr>  
+  <tr>
+    <td rowspan="1">Volleybal</td>
+    <td>35</td>
+    <td>20</td>
+    <td>55</td>
+  </tr>  
+</table>
+<h2>
+14. Maak nu zelf een tabel met de elementen die je hiervoor hebt geleerd.</h2>
+
+<table>
+  <thead>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+    <th>Savings for holiday!</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+    <td rowspan="2">$50</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</tbody>
+  <tfoot>
+  <tr>
+    <td colspan="2">Sum: $180</td>
+  </tr>
+</tfoot>
+</table>
+
+
+</body>
+</html>

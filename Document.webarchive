@@ -1,0 +1,168 @@
+bplist00�_WebMainResource�	
+_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingName^WebResourceURL_WebResourceFrameNameO0�<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+6. Laadt dit bestand in als een audio op het scherm. <br>
+<br>
+<audio src="./explosie.mp3" controls="" loop=""> </audio><br>
+<br>
+7. Speel een audio bestand af met <source> tag. Leg uit wat hier het voordeel van is.<br>
+    <br>
+    <audio controls="">
+        <source src="./explosie.mp3">
+        <source src="./explosie.mp3">
+        <p>If you are reading this, it is because your browser does not support the HTML 'audio' element.</p>
+        </audio>
+        <br>
+        <br>
+
+8. Zoek een willekeurig video en sla dit op in je computer. Laadt dit bestand in als een video op het scherm.
+<br>
+<br>
+<video controls="">
+    <source src="./mov_bbb.mp4" type="video/mp4">
+    <source src="./mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  <br>
+  <br>
+9. Maak gebruik van de verschillende soorten lijsten om het volgende resultaat op je webpagina weer te geven.
+   
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        
+
+            <ol>
+            <li>item1</li>
+            <li>item2</li> 
+            <dd>1. sub-item1</dd>
+            <dd>2. sub-item2</dd>
+            <li>item 3</li>
+        </ol>
+            
+
+            <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    
+            <ul>
+           <li>item 1</li> 
+           <li>item 2</li>
+           <ul>
+           <li>sub item 1</li>
+           <li>sub item 2</li></ul>
+            <li>item 3</li>
+        </ul>
+           
+            <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <ol>
+            <dd><li>sub item 1</li></dd>
+            <dd><li>sub item 2</li></dd>
+        </ol>
+            <li>item 3</li>
+        </ul>
+        
+10. Bouw een navigatiebalk door gebruik te maken uit een lijst dat bestaat uit de volgende onderdelen: <br>
+        ○ Tigers<br>
+        ○ Lions<br>
+        ○ Monkeys<br>
+        ○ Hippopotaumus<br>
+
+        <ul>
+            <li><a href="tigers.asp">Tigers</a></li>
+            <li><a href="lions.asp">Lions</a></li>
+            <li><a href="monkeys.asp">Monkeys</a></li>
+            <li><a href="Hippopotaumus.asp">Hippopotaumus</a></li>
+          </ul>
+
+11. Creëer nu voor elk onderdeel een header en een bijbehorende stuk tekst en zorg ervoor dat door te klikken op de links in de navigatiebalk je gerefereerd wordt naar het bijbehorende onderdeel. 
+<br>
+<ul>
+    <li><a id="tigers" href="tigers.asp">Tigers</a></li>
+    <li><a href="lions.asp">Lions</a></li>
+    <li><a href="monkeys.asp">Monkeys</a></li>
+    <li><a href="Hippopotaumus.asp">Hippopotaumus</a></li>
+  </ul>
+<h3><p id="Tigers"></p></h3>
+The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own.
+
+The tiger once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin, and in the south from the foothills of the Himalayas to Bali in the Sunda islands. Since the early 20th century, tiger populations have lost at least 93% of their historic range and have been extirpated in Western and Central Asia, from the islands of Java and Bali, and in large areas of Southeast and South Asia and China. Today's tiger range is fragmented, stretching from Siberian temperate forests to subtropical and tropical forests on the Indian subcontinent and Sumatra.
+
+The tiger is listed as endangered on the IUCN Red List. As of 2015, the global wild tiger population was estimated to number between 3,062 and 3,948 mature individuals, with most of the populations living in small pockets isolated from each other. India currently hosts the largest tiger population. Major reasons for population decline are habitat destruction, habitat fragmentation and poaching. Tigers are also victims of human–wildlife conflict in particular in range countries with a high human population density.
+
+The tiger is among the most recognisable and popular of the world's charismatic megafauna. It featured prominently in ancient mythology and folklore and continues to be depicted in modern films and literature, appearing on many flags, coats of arms and as mascots for sporting teams. The tiger is the national animal of India, Bangladesh, Malaysia and South Korea.
+
+<h3>Lions</h3>
+The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It is most recognisable for its muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane. With a typical head-to-body length of 184–208 cm (72–82 in) they are larger than females at 160–184 cm (63–72 in). It is a social species, forming groups called prides. A lion pride consists of a few adult males, related females and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, the species typically does not.
+
+Typically, the lion inhabits grasslands and savannas, but is absent in dense forests. It is usually more diurnal than other big cats, but when persecuted it adapts to being active at night and at twilight. In the Pleistocene, the lion ranged throughout Eurasia, Africa and North America, but today it has been reduced to fragmented populations in sub-Saharan Africa and one critically endangered population in western India. It has been listed as Vulnerable on the IUCN Red List since 1996 because populations in African countries have declined by about 43% since the early 1990s. Lion populations are untenable outside designated protected areas. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes for concern.
+
+One of the most widely recognised animal symbols in human culture, the lion has been extensively depicted in sculptures and paintings, on national flags, and in contemporary films and literature. Lions have been kept in menageries since the time of the Roman Empire and have been a key species sought for exhibition in zoological gardens across the world since the late 18th century. Cultural depictions of lions were prominent in the Upper Paleolithic period; carvings and paintings from the Lascaux and Chauvet Caves in France have been dated to 17,000 years ago, and depictions have occurred in virtually all ancient and medieval cultures that coincided with the lion's former and current ranges.
+<h3>Monkeys</h3>
+Monkey is a common name that may refer to groups or species of mammals, in part, the simians of infraorder Simiiformes. The term is applied descriptively to groups of primates, such as families of New World monkeys and Old World monkeys. Many monkey species are tree-dwelling (arboreal), although there are species that live primarily on the ground, such as baboons. Most species are also active during the day (diurnal). Monkeys are generally considered to be intelligent, especially the Old World monkeys of Catarrhini.
+
+Simians and tarsiers emerged within haplorrhines some 60 million years ago. New World monkeys and catarrhine monkeys emerged within the simians some 35 million years ago. Old World monkeys and Hominoidea emerged within the catarrhine monkeys some 25 million years ago. Extinct basal simians such as Aegyptopithecus or Parapithecus [35-32 million years ago], eosimiidea and sometimes even the Catarrhini group are also considered monkeys by primatologists.[3][4][5][6][7][8][9]
+
+Lemurs, lorises, and galagos are not monkeys; instead they are strepsirrhine primates. Like monkeys, tarsiers are haplorhine primates; however, they are also not monkeys.
+
+Apes emerged within "monkeys" as sister of the Cercopithecidae in the Catarrhini, so cladistically they are monkeys as well. There has been resistance to directly designate apes (and thus humans) as monkeys, so "Old World monkey" may be taken to mean the Cercopithecoidea or the Catarrhini.[10][11][12][13][14][15][9][16][17] That apes are monkeys was already realized by Georges-Louis Leclerc, Comte de Buffon in the 18th century.[18][19]
+
+Monkeys, including apes, can be distinguished from other primates by having only two pectoral nipples, a pendulous penis, and a lack of sensory whiskers
+<h3>Hippopotaumus</h3>
+The hippopotamus (/ˌhɪpəˈpɒtəməs/ HIP-ə-POT-ə-məs;[3] Hippopotamus amphibius), also called the hippo, common hippopotamus or river hippopotamus, is a large, mostly herbivorous, semiaquatic mammal and ungulate native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis or Hexaprotodon liberiensis). The name comes from the ancient Greek for "river horse" (ἱπποπόταμος). After the elephant and rhinoceros, both of which are found in Africa, the hippopotamus is the third-largest type of land mammal and the heaviest extant artiodactyl. Despite their physical resemblance to pigs and other terrestrial even-toed ungulates, the closest living relatives of the Hippopotamidae are cetaceans (whales, dolphins, porpoises, etc.) from which they diverged about 55 million years ago.
+
+Hippos are recognisable by their barrel-shaped torsos, wide-opening mouths revealing large canine tusks, nearly hairless bodies, columnar legs and large size; adults average 1,500 kg (3,310 lb) for males and 1,300 kg (2,870 lb) for females. Despite its stocky shape and short legs, it is capable of running 30 km/h (19 mph) over short distances.
+
+Hippos inhabit rivers, lakes, and mangrove swamps, where territorial males preside over a stretch of river and groups of five to thirty females and young hippos. During the day, they remain cool by staying in the water or mud; reproduction and childbirth both occur in water. They emerge at dusk to graze on grasses. While hippos rest near each other in the water, grazing is a solitary activity and hippos are not territorial on land. The hippo is among the most dangerous animals in the world due to its highly aggressive and unpredictable nature. They are threatened by habitat loss and poaching for their meat and ivory canine teeth.
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>Ytext/htmlUUTF-8_6http://127.0.0.1:5500/HTML/ELEMENTEN/Opdracht%201.htmlP    ( : P n } �1V1`1f1�                           1�
