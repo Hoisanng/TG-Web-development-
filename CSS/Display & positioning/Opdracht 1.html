@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body style="font-family:Verdana">
+        <h2>Opdracht 1:</h2>
+        <b>Static:</b>Het element wordt op de gewone manier geplaatst (standaard).
+        De waarden van top, bottom, left, right hebben geen effect.<br>
+        <b>Fixed:</b>Het element wordt gepositioneerd t.o.v. het venster (de viewport)
+        bij schuiven (scrollen) van de webpagina blijft het gefixeerde element op zijn plaats.<br>
+        <b>Absolute:</b>Als bij fixed. Nu wordt gepostioneerd t.o.v. het parent element.
+        Preciezer gezegd: t.o.v. het eerste niet statische parent-element. De procedure is als volgt: eerst wordt
+        gekeken naar de parent (het omhullende element). Is dat niet relative, absolute of fixed dan kijken we verder
+        bij diens parent. Zo gaan we door tot we een relative, absolute of fixed element vinden. Dat is de referentie.
+        Vinden we geen enkele ancestor die voldoet, dan is de body het referentie-element.
+
+        Opmerking: Een met postion: absolute geplaatst element verschuift wel met de webpagina mee, een met postion:
+        fixed geplaatst element niet.<br>
+        <B>Relative:</B>Bij een met position:relative gepositioneerd element geven top, bottom, left en right, de
+        verschuiving van het element aan t.o.v. de 'oorspronkleijke positie'.
+        De oorspronkelijke plaats blijft leeg.<br>
+        <b>Sticky:</b> Bij sticky blijft het element op zijn plaats en scrolt mee met de webpagina.<br>
+        De default position waarde is static.
+    </body>
+</body>
+
+</html>
