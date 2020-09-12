@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: cadetblue;
+            color:white;
+            width: 500px;
+            height: 75px;
+        }
+        
+        button::before {
+            content: "";
+            position:absolute;
+            border-top: 5px solid orange;
+            border-left: 5px solid orange;
+            top: 10px;
+            bottom: 616px;
+            left: 5px;
+            right: 1100px;
+        }
+
+        button::after {
+            content: "";
+            position:absolute;
+            border-bottom: 5px solid orange;
+            border-right: 5px solid orange;
+            top: 10px;
+            bottom: 616px;
+            left: 470px;
+            right: 628px;
+        }
+
+    </style>
+</head>
+<body>
+    <button>Button</button>
+</body>
+</html>

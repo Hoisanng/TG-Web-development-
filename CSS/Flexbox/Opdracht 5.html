@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: burlywood;
+            width: 500px;
+            height: 500px;
+        }
+
+        .center {
+            display: flex;
+            background-color: burlywood;
+            width: 500px;
+            height: 500px;
+            align-items: center;
+        }
+
+        .flex-end {
+            display: flex;
+            background-color: burlywood;
+            width: 500px;
+            height: 500px;
+            align-items: flex-end;
+        }
+
+        .flex {
+            background-color: lightgreen;
+            display: flex;
+            width: 500px;
+            height: 300px;
+            align-items: stretch;
+            margin: 20px;
+
+        }
+
+        .flex2 {
+            background-color: lightgreen;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            align-items: center;
+            margin: 20px;
+
+        }
+
+        .flex3 {
+            background-color: lightgreen;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            align-self: flex-end;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Stretch:</h2>
+    <div class="flex-container">
+        <div class="flex">1</div>
+        <div class="flex">2</div>
+        <div class="flex">3</div>
+        <div class="flex">4</div>
+        <div class="flex">5</div>
+        <div class="flex">6</div>
+    </div>
+    <h2>Center:</h2>
+    <div class="center">
+        <div class="flex2">1</div>
+        <div class="flex2">2</div>
+        <div class="flex2">3</div>
+        <div class="flex2">4</div>
+        <div class="flex2">5</div>
+        <div class="flex2">6</div>
+    </div>
+    <h2>Flex-end:</h2>
+    <div class="flex-end">
+        <div class="flex3">1</div>
+        <div class="flex3">2</div>
+        <div class="flex3">3</div>
+        <div class="flex3">4</div>
+        <div class="flex3">5</div>
+        <div class="flex3">6</div>
+    </div>
+</body>
+
+</html>

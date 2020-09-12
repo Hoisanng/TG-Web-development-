@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h1::before {
+            content: '˙';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 25px;
+            left: -20px;
+            text-align: center;
+            color: white;
+            border-radius: 50%;
+
+        }
+
+        h1::after {
+            content: '.';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            bottom: 80x;
+            top: 20px;
+            right: -20px;
+            text-align: center;
+            color: white;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+
+
+        .content {
+            position: relative;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: black;
+            margin: 100px;
+
+        }
+
+        .content::before {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: absolute;
+            content: "";
+            top: 20px;
+            left: -20px;
+            right: 50px;
+
+
+        }
+
+        .content::after {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: absolute;
+            content: "";
+            top: 20px;
+            left: 70px;
+            right: 50px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>1</h1>
+    </div>
+    <div class="content">
+        <h1>2</h1>
+    </div>
+    <div class="content">
+        <h1>3</h1>
+    </div>
+
+</body>
+
+</html>

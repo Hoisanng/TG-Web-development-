@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    div {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      transform: rotate(25deg);
+      margin: 60px;
+    }
+    div::before {
+      position:absolute;
+      content:"";
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      transform: rotate(40deg);
+    }
+    div::after {
+      position:absolute;
+      content:"";
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      transform: rotate(20deg);
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+</body>
+
+</html>
