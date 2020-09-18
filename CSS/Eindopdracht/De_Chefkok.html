@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
+    <style>
+        
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        body {
+            font-family: 'Lobster', cursive;
+            background-color: grey;
+        }
+
+        /* NAVBAR */
+
+        .navbar {
+            display: flex;
+            background-color: grey;
+            height: 60px;
+            justify-content: flex-end;
+            position: fixed;
+            overflow: hidden;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        a {
+            font-size: 20px;
+            color: black;
+            padding: 15px;
+
+        }
+
+
+        /* COOKING */
+
+        .cookingdiv {
+            display: flex;
+            justify-content: flex-end;
+            height: 450px;
+            margin-top: 100px;
+            background-image: url('./images/cooking.jpg');
+            background-size: cover;
+        }
+
+        .cookingtextmain {
+            width: 260px;
+            height: 200px;
+            color: rgb(97, 135, 216);
+            margin-right: 250px;
+        }
+
+        .cooking {
+            width: 1409px;
+            height: auto;
+            opacity: 0.8;
+        }
+
+
+        .button1 {
+            background-color: transparent;
+            border: 2px solid rgb(128, 179, 128);
+            color: rgb(97, 135, 216);
+            font-family: 'Lobster', cursive;
+            width: 120px;
+            height: 30px;
+        }
+
+        .button1:hover {
+            background-color: rgb(128, 179, 128);
+            transition-duration: 1s;
+        }
+
+        .buttongreen {
+            border: 2px solid rgb(128, 179, 128);
+            color: rgb(128, 179, 128);
+        }
+
+        .buttongreen:hover {
+            background-color: rgb(128, 179, 128);
+            transition-duration: 1s;
+            color: white;
+        }
+
+
+        /* GERECHTEN */
+
+        .gerechtenmain {
+            text-align: center;
+        }
+
+        .gerechtenpasta {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .dish {
+            display: block;
+            width: 150px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* .pasta {
+            display: flex;
+        } */
+
+        .pasta1 {
+            width: 200px;
+            margin-right: 30px;
+        }
+
+        .pasta2 {
+            width: 200px;
+            margin-right: 30px;
+        }
+
+        .pasta3 {
+            width: 200px;
+            margin-right: 30px;
+        }
+
+        /* MENU */
+
+        .menudiv {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .menumain {
+            text-align: center;
+        }
+
+        .pasta {
+            display: inline-block;
+            width: 50%;
+
+        }
+
+        .pastatext {
+            display: inline-block;
+            width: 170px;
+            margin: 0 20px;
+        }
+
+        /* FOOTER */
+
+        .footer {
+            background-color: rgb(128, 179, 128);
+            color: rgb(97, 135, 216);
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .navbar {
+                justify-content: center;
+            }
+
+            .cookingdiv {
+                margin: 80px auto;
+            }
+
+            .cookingtextmain {
+                margin-right: 0px;
+            }
+
+            .button1 {
+                justify-content: center;
+                display: block;
+            }
+
+            .gerechtenpasta {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* .pasta {
+                flex-direction: column;
+                align-items: center;
+            } */
+
+            .chef {
+                display: none;
+            }
+
+            .footer {
+                display: block;
+                text-align: center;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+
+    <div id="homemain">
+        <div id="home" class="cookingdiv">
+            <div class="cookingtextmain">
+                <h1>Cooking</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+                <div class="cookbutt">
+                    <button class="button1">BUY</button>
+                    <button class="button1 buttongreen">SHOW MORE</button>
+                </div>
+            </div>
+        </div>
+  
+        <div  class="gerechtendiv">
+            <h1 class="gerechtenmain">Populaire gerechten</h1>
+
+            <div class="gerechtenpasta">
+                <div class="pasta1">
+                    <img class="dish" src="./images/dish1.jpg">
+                    <h3>Pasta 8,99</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, debitis ab provident
+                        mollitia molestias reiciendis</p>
+                    <p>Show...</p>
+                </div>
+
+                <div class="pasta2">
+                    <img class="dish" src="./images/dish1.jpg">
+                    <h3>Pasta 8,99</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, debitis ab provident
+                        mollitia molestias reiciendis</p>
+                    <p>Show...</p>
+                </div>
+
+                <div class="pasta3">
+                    <img class="dish" src="./images/dish1.jpg">
+                    <h3>Pasta 8,99</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus, debitis ab provident
+                        mollitia molestias reiciendis</p>
+                    <p>Show...</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="menu" class="menumain">Menu</h1>
+        <div class="menudiv">
+            <img class="chef" src="./images/chef1.webp">
+            <div class="pasta">
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+                <div class="pastatext">
+                    <h4>Pasta 8,99</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="contact" class="footer">
+            <div>
+                <h3>Contact</h3>
+                <p>Osdorplein 16, 1245, amsterdam</p>
+                <p> Tel nr: 12345678</p>
+                <p> Openingstijden: ma t/m vr 10:00 - 22:00</p>
+                <i class="lni lni-instagram"></i>
+                <i class="lni lni-twitter-original"></i>
+                <i class="lni lni-facebook-original"></i>
+            </div>
+
+            <div>
+                <h3>Navigation</h3>
+                <p>Home</p>
+                <p> Menu</p>
+                <p> Contact</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

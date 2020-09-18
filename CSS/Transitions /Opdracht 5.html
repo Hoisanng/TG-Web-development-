@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opdracht 4</title>
+    <title>Document</title>
     <style>
         .container {
-            position:relative;
-            height:500px;
-            width:1000px;
-            margin:50px;
-            border:1px solid black;
-            background-color:lightgrey;
+            background-color: lightpink;
+            border: 3px solid black;
+            margin: 2px;
+            width: 300px;
+            height: 300px;
+            position: relative;
         }
-        .contentbox {
-            position:absolute;
-            top:50%;
-            left:50%;
-            height:30px;
-            width:100px;
-            padding:30px 0;
-            margin-top:-30px;
-            margin-left:-65px;
-            text-align:center;
-            border: 1px solid black;
-            font-size:50px;
+
+        .img:hover {
+            transition: 2s;
+            filter: sepia (100%);
+
         }
-        .container:hover #box1 {
-            top:0;
-            left:100%;
-            margin: 0 0 0 -100px;
+
+        img {
+            transition: 2s;
         }
-        .container:hover #box2 {
-            top:0;
-            left:0;
-            margin: 0;
+
+        .een {
+            bottom: 510px;
+            left: 10px;
+            border: 7px solid black;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            text-align: center;
+           
         }
-        .container:hover #box3 {
-            top:100%;
-            left:0;
-            margin-top:-92px;
-            margin-left:0;
+
+        .twee {
+            width: 120px;
+            height: 120px;
+            background-color: pink;
+            bottom: 516px;
+            left: 17px;
+            position: absolute;
+            transition: transform 1s;
         }
-        #box1, #box2 {
-            transition-property: top, left, margin;
-            transition-duration: 1s;
-            transition-timing-function: ease, ease-in-out;
+
+        .twee:hover {
+            transform: rotate(80deg) translate(100px, 90px);
+            bottom: 450px;
+            left: 70px;
+            
+            
         }
-        #box3 {
-            transition-property: top, left, margin-top, margin-left;
-            transition-duration: 2s, 1s;
-            transition-delay: 2s, 1s;
-        }
+
+      
+        
+
+       
     </style>
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="contentbox" id="box1">1</div>
-        <div class="contentbox" id="box2">2</div>
-        <div class="contentbox" id="box3">3</div>
+    <div>
+        <div class="container"></div>
+        <div class="een">HAHA<img src="./images/penguin.png" width="120" height="102"></div>
+        <div class="twee"></div>
+
     </div>
+
 </body>
 
-</html>
-    
-</body>
 </html>

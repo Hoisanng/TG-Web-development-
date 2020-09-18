@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container {
+            display: flex;
+            position: relative;
+            padding-top: 40px;
+            width: 700px;
+            height: 270px;
+            border: 2px solid black;
+        }
+        .card1 {
+            width: 150px;
+            height: 220px;
+            background-color: grey;
+            color: white;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 15px;
+        }
+
+        .card1:hover {
+           margin-top: -20px;
+        }
+        
+        
+        #div1 {
+            transition-property: top;
+            transition-duration: 1s;
+        }
+
+        .card1:hover~.card2 {
+           margin-left: 85px;
+
+        }
+
+        #div2 {
+            transition-property: left;
+            transition-duration: 1s;
+        }
+
+        .card2 {
+            position: absolute;
+            left: 90px;
+            width: 150px;
+            height: 220px;
+            background-color: grey;
+            color: white;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 15px;
+        }
+
+        .card3 {
+            position: absolute;
+            left: 180px;
+            width: 150px;
+            height: 220px;
+            background-color: grey;
+            color: white;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 15px;
+           
+        }
+
+        .card4 {
+            position: absolute;
+            left: 270px;
+            width: 150px;
+            height: 220px;
+            background-color: grey;
+            color: white;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 15px;
+    
+        }
+
+        b {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card1" id="div1">
+            Article Sep 16,<br>
+            2019<br>
+            <b>Placeholder</b><br>
+            <b>title</b><br><br><br><br><br><br>
+            Author:<br>
+            Kim Sing
+        </div>
+        <div class="card2" id="div2">
+            Article Sep 16,<br>
+            2019<br>
+            <b>Placeholder</b><br>
+            <b>title</b><br><br><br><br><br><br>
+            Author:<br>
+            Kim Sing
+        </div>
+        <div class="card3">
+            Article Sep 16,<br>
+            2019<br>
+            <b>Placeholder</b><br>
+            <b>title</b><br><br><br><br><br><br>
+            Author:<br>
+            Kim Sing
+        </div>
+        <div class="card4">
+            Article Sep 16,<br>
+            2019<br>
+            <b>Placeholder</b><br>
+            <b>title</b><br><br><br><br><br><br>
+            Author:<br>
+            Kim Sing
+        </div>
+    </div>
+</body>
+</html>

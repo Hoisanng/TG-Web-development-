@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Document_files/css2" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Lobster', cursive;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: grey;
+            height: 60px;
+            justify-content: flex-end;
+        }
+
+        a {
+            font-size: 20px;
+            color: black;
+            padding: 15px;
+
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .navbar {
+            justify-content: center;
+
+        }
+            
+        }
+
+        .cookingdiv {
+            position: relative;
+        }
+
+        .cooking {
+            width: 1409px;
+            height: auto;
+            opacity: 0.8;
+        }
+
+        .cookingtext {
+            position: absolute;
+            color: rgb(97, 135, 216);
+            bottom: 250px;
+            left: 900px;
+        }
+           
+
+        .cookingtext2 {
+            position: absolute;
+            color: rgb(97, 135, 216);
+            bottom: 220px;
+            left: 900px;
+        }
+        
+        .button1{
+            border: 2px solid rgb(128, 179, 128);
+            color: rgb(97, 135, 216);
+            font-family: 'Lobster', cursive;
+            position:absolute;
+            left: 900px;
+            bottom: 180px;
+            width: 120px;
+            height:30px;
+        }
+
+        .button1:hover {
+            background-color: rgb(128, 179, 128);
+            transition-duration: 1s;
+        }
+
+        .button2 {
+            border: 2px solid rgb(128, 179, 128);
+            color: rgb(128, 179, 128);
+            font-family: 'Lobster', cursive;
+            position:absolute;
+            left: 1030px;
+            bottom: 180px;
+            width: 120px;
+            height:30px;
+        }
+
+        .button2:hover {
+            background-color: rgb(128, 179, 128);
+            transition-duration: 1s;
+            color: white;
+        }
+
+        /* @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .cookingtext {
+            justify-content: center;
+
+        } */
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html#home">Home</a>
+        <a href="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html#menu">Menu</a>
+        <a href="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html#contact">Contact</a>
+    </div>
+    <div class="cookingdiv">
+        <img class="cooking" src="./Document_files/cooking.jpg">
+        <h1 class="cookingtext">Cooking</h1>
+        <div class="cookingtext2"> Lorem ipsum dolor sit amet consectetur 
+            <br>adipisicing elit. </div>
+        <button class="button1">BUY</button>
+        <button class="button2">SHOW MORE</button>
+       
+
+    </div>
+    <div>
+        <p>Populaire gerechten</p>
+        <img src="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html" alt="">
+        <p>Pasta</p>
+        <p></p>
+        <img src="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html" alt="">
+        <p>Pasta</p>
+        <p></p>
+        <img src="http://127.0.0.1:5500/CSS/Eindopdracht/De_Chefkok.html" alt="">
+        <p>Pasta</p>
+        <p></p>
+    </div>
+    <div>
+        <p>Menu</p>
+    </div>
+    <div>
+        <h5>Contact</h5>
+        <h5>Navigation</h5>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
