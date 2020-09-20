@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <title>Amazing Space</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+    <style>
+        body {
+            max-width: 1200px;
+            margin: auto;
+            font-family: "Space Mono", sans-serif;
+            font-size: 18px;
+            line-height: 1.4em;
+            color: blue;
+        }
+
+        body {
+            background-image: url(./Images/space.jpg);
+            height: 100%;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        /* Title and Description */
+        .page-title {
+            text-align: center;
+            margin: auto;
+            line-height: 2em;
+        }
+
+        .logo {
+            height: 80px;
+            width: 80px;
+            background-image: url(./Images/spaceship.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: relative;
+            top: 1em;
+        }
+
+        .page-title h1 {
+            display: inline-block;
+        }
+
+        .main {
+            text-align: center;
+        }
+
+        .page-description {
+            font-size: 0.8rem;
+            padding: 30px;
+        }
+
+        .learn-more {
+            color: DarkOrange;
+            text-decoration: none;
+            display: block;
+            margin: 25px 0 0 0;
+            font-weight: bold;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            margin: 20px;
+        }
+
+        .gallery-item .thumbnail {
+            width: 240px;
+            border: 2px solid GhostWhite;
+            border-radius: 4px;
+        }
+
+        /* Footer Navigation */
+        nav {
+            margin-top: 30px;
+        }
+
+        nav ul {
+            display: block;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px 0 0;
+            color: GhostWhite;
+        }
+
+        nav a {
+            line-height: 60px;
+            border: 1px solid GhostWhite;
+            padding: 7px;
+            border-radius: 4px;
+            color: DarkOrange;
+            text-decoration: none;
+        }
+
+        .contact-btn {
+            cursor: pointer;
+            margin: 20px 30px;
+            text-align: center;
+        }
+
+        .contact-btn a:active {
+            position: relative;
+            bottom: 2px;
+        }
+
+        @media only screen and (max-width: 480px)  {
+            .page-title {
+                width: 270px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="page-title">
+            <div class="logo"></div>
+            <h1>Amazing Space</h1>
+            <h5>At Amazing Space, there's always space for you.&trade;</h5>
+        </div>
+    </header>
+    <div class="main">
+        <p class="page-description clearfix">
+            Otherworldly views, uncompromising service, unparallelled luxury. This is Amazing Space, the world's first,
+            and finest, space adventure company. With private and group voyages embarking weekly, you can book your
+            tickets in advance or on the fly.
+            <a class="learn-more" href="#">Learn More >></a>
+        </p>
+        <div class="gallery">
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space01.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space02.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space03.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space04.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space05.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space06.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space07.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/space08.jpg">
+            </figure>
+        </div>
+    </div>
+    <nav class="footer">
+        <ul>
+            <li>ABOUT</li>
+            <li>MISSIONS</li>
+            <li>ARCHIVE</li>
+        </ul>
+        <div class="contact-btn">
+            <a>CONTACT US</a>
+        </div>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(241, 232, 233);
+            display: flex;
+        }
+
+        ul {
+            font-family: verdana;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #4B86CB;
+            color: white;
+            text-align: center;
+            width: 300px;
+            height: 1500px;
+            padding-top: 10px;
+        }
+
+        .menu {
+            border-bottom: 1px solid ivory;
+        }
+
+        li {
+            margin: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dashboard1 {
+            margin-top: 20px;
+        }
+
+        .user {
+            display: flex;
+            justify-content: center;
+        }
+
+        .user1 {
+            margin-top: 20px;
+        }
+
+        .members {
+            display: flex;
+            justify-content: center;
+        }
+
+        .members1 {
+            margin-top: 20px;
+        }
+
+        .assignments {
+            display: flex;
+            justify-content: center;
+        }
+
+        .assignments1 {
+            margin-top: 20px;
+        }
+
+        .blogs {
+            display: flex;
+            justify-content: center;
+        }
+
+        .blogs1 {
+            margin-top: 20px;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .membersmain {
+            font-family: verdana;
+            text-align: center;
+            color: #4B86CB;
+            border-bottom: 1px solid #4B86CB;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 97%;
+            padding: 20px;
+        }
+
+        td,
+        th {
+            border: 1px solid #4B86CB;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #a0aec0;
+        }
+
+        .tablediv {
+            padding-top: 20px;
+            padding-left: 30px;
+
+        }
+
+        .additionalinformation {
+            font-family: verdana;
+            color: #4B86CB;
+            text-align: center;
+        }
+
+        .eersteregel {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .tweederegel {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10px;
+
+        }
+
+        .derderegel {
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 10px;
+            margin-left: 40px;
+        }
+
+        .vierderegel {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10px;
+        }
+
+        .input {
+            background-color: #C5DEEA;
+            border-radius: 5px;
+            border: 1px solid #C5DEEA;
+            width: 280px;
+        }
+
+        .input3 {
+            width: 1020px;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            body {
+                background-color: rgb(241, 232, 233);
+                display: block;
+                width: 100%;
+            }
+            
+            /* .menudiv {
+                width: 100px;
+            } */
+
+            ul {
+                height: 500px;
+                
+            }
+
+            .eersteregel {
+                display: block;
+            }
+
+            .tweederegel {
+                display: block;
+            }
+
+            .derderegel {
+                margin-left: 0px;
+            }
+
+            .input3 {
+            width: 186%;
+        }
+
+        #klein {
+            width: 80%;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menudiv">
+        <ul>
+
+            <div class="menu">
+                <li>
+                    <h2><b><a href="#menu">MENU</a>
+                </li>
+                </h2></b>
+            </div>
+
+            <div class="dashboard">
+                <div class="dashboard1">
+                    <i class="lni lni-dashboard"></i>
+                </div>
+                <div class="dashboard2">
+                    <li><a href="#dashboard">DASHBOARD</a></li>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user1">
+                    <i class="lni lni-user"></i>
+                </div>
+                <div class="user2">
+                    <li><a href="#userprofile">USER PROFILE</a></li>
+                </div>
+            </div>
+
+            <div class="members">
+                <div class="members1">
+                    <i class="lni lni-users"></i>
+                </div>
+                <div class="members2">
+                    <li><a href="#members">MEMBERS</a></li>
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignments1">
+                    <i class="lni lni-briefcase"></i>
+                </div>
+                <div class="assignments2">
+                    <li><a href="#assignments">ASSIGNMENTS</a></li>
+                </div>
+            </div>
+
+            <div class="blogs">
+                <div class="blogs1">
+                    <i class="lni lni-blogger"></i>
+                </div>
+                <div class="blogs2">
+                    <li><a href="#blogs">BLOGS</a></li>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="membersmain">
+            <h1>MEMBERS</h1>
+        </div>
+        <div class="tablediv">
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Alfreds</td>
+                    <td>Maria </td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Alfreds </td>
+                    <td>Maria </td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>Centro </td>
+                    <td>Francisco </td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>Ernst </td>
+                    <td>Roland </td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Island </td>
+                    <td>Helen </td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <td>Laughing </td>
+                    <td>Yoshi </td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Magazzini </td>
+                    <td>Giovanni </td>
+                    <td>45</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <h2 class="additionalinformation">Additional information</h2> <br><br>
+                </thead>
+                <tr>
+                    <form>
+                        <div class="eersteregel">
+                            <div>
+                                <label for="firstname">First name:</label><br>
+                                <input class="input" type="text">
+                            </div>
+                            <div>
+                                <label for="surname">Surname:</label><br>
+                                <input class="input" type="text"><br>
+                            </div>
+                            <div>
+                                <label for="age">Age:</label><br>
+                                <input class="input" type="text"><br>
+                            </div>
+                        </div>
+
+                        <div class="tweederegel">
+                            <div>
+                                <label for="company">Company:</label><br>
+                                <input class="input" type="text">
+                            </div>
+                            <div>
+                                <label for="username">Username:</label><br>
+                                <input class="input" type="text"><br>
+                            </div>
+                            <div>
+                                <label for="email">E-mail:</label><br>
+                                <input class="input" type="text"><br>
+                            </div>
+                        </div>
+
+                        <div class="derderegel">
+                            <div>
+                                <label for="address">Address:</label><br>
+                                <input class="input input3" type="text">
+                            </div>
+                        </div>
+
+                        <div class="vierderegel">
+                            <div>
+                                <label for="city">City:</label><br>
+                                <input class="input" id="klein" type="text">
+                            </div>
+                            <div>
+                                <label for="country">Country:</label><br>
+                                <input class="input" id="klein" type="text"><br>
+                            </div>
+                            <div>
+                                <label for="postalcode">Postalcode:</label><br>
+                                <input class="input" id="klein" type="text"><br>
+                            </div>
+                        </div>
+
+                    </form>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
