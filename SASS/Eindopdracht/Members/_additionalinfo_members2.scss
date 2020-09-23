@@ -1,0 +1,43 @@
+
+tr:nth-child(even) {
+    background-color: #a0aec0;
+}
+
+.additionalinformation {
+    font-family: verdana;
+    color: #4B86CB;
+    text-align: center;
+}
+
+.eersteregel {
+    @include additionalinfo ();
+}
+
+.tweederegel {
+    @include additionalinfo ();
+    padding-top: 10px;
+
+}
+
+.derderegel {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.vierderegel {
+    @include additionalinfo ();
+    padding-top: 10px;
+}
+
+.input {
+    background-color: #C5DEEA;
+    border-radius: 5px;
+    border: 1px solid #C5DEEA;
+    width: 280px;
+}
+
+.input3 {
+    width: 1020px;
+}

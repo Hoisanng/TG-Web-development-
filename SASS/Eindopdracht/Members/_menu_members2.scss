@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(241, 232, 233);
+    display: flex;
+}
+
+ul {
+    font-family: verdana;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4B86CB;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 1500px;
+    padding-top: 10px;
+}
+
+.menu {
+    border-bottom: 1px solid ivory;
+}
+
+li {
+    margin: $margin;
+}
+
+.dashboard {
+    @include menu ();
+
+    .dashboard1 {
+        margin-top: $margin;
+    }
+}
+
+.user {
+    @include menu ();
+
+    .user1 {
+        margin-top: $margin;
+    }
+}
+
+.members {
+    @include menu ();
+
+    .members1 {
+        margin-top: $margin;
+    }
+}
+
+.assignments {
+    @include menu ();
+
+    .assignments1 {
+        margin-top: $margin;
+    }
+}
+
+.blogs {
+    @include menu ();
+
+    .blogs1 {
+        margin-top: $margin;
+    }
+}
+

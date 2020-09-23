@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: $primary-color;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    background-color: $primary-color;
+    height: 60px;
+    justify-content: flex-end;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    a {
+        font-size: 20px;
+        color: black;
+        padding: 15px;
+    
+    }
+
+}

@@ -1,0 +1,43 @@
+
+
+/* GERECHTEN */
+
+.gerechtenmain {
+    text-align: center;
+}
+
+.gerechtenpasta {
+    display: flex;
+    justify-content: space-evenly;
+
+    .dish {
+        display: block;
+        width: 150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .price {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pasta1 {
+        width: $pasta-width;
+        margin-right: $pasta-margin;
+    }
+
+    .pasta2 {
+        width: $pasta-width;
+        margin-right: $pasta-margin;
+    }
+    
+    .pasta3 {
+        width: $pasta-width;
+        margin-right: $pasta-margin;
+    }
+    
+}
+
+

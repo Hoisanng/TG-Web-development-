@@ -1,0 +1,16 @@
+.button {
+  background-color: red;
+  color: black;
+  border: 3px solid pink;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.button:hover {
+  background-color: lightgreen;
+  color: white;
+  border: 3px solid green;
+}
+/*# sourceMappingURL=style.css.map */

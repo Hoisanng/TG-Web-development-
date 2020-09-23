@@ -1,0 +1,27 @@
+/* MENU */
+
+.menumain {
+    text-align: center;
+}
+
+.menudiv {
+    display: flex;
+    justify-content: space-around;
+
+    .pasta {
+        display: inline-block;
+        width: 50%;
+    
+    }
+    
+    .pastatext {
+        display: inline-block;
+        width: 170px;
+        margin: 0 20px;
+    }
+
+}
+
+
+
+

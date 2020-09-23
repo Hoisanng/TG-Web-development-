@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        background-color: rgb(241, 232, 233);
+        display: block;
+        width: 100%;
+    }
+
+    ul {
+        height: 500px;
+        width: 100%;
+        
+    }
+
+    .eersteregel {
+        display: block;
+    }
+
+    .tweederegel {
+        display: block;
+    }
+
+    .derderegel {
+        margin-left: 0px;
+    }
+
+    .input3 {
+    width: 186%;
+}
+
+#klein {
+    width: 80%;
+}
+}

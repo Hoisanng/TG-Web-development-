@@ -1,0 +1,33 @@
+$break-small: 480px;
+@mixin important-text {
+    background-color: red;
+    color: black;
+    border: 3px solid pink;
+
+
+    &:hover {
+        background-color: lightgreen;
+        color: white;
+        border: 3px solid green;
+
+    }
+}
+
+@mixin trans {
+    transition-property: background-color, color;
+    transition-duration: 1s;
+
+}
+
+
+
+.button {
+    @include important-text();
+    @include trans();
+    @media screen and (max-width: $break-small) {
+        width: 200px;
+        height: 100px;
+      }
+
+}
+

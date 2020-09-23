@@ -1,0 +1,30 @@
+.main {
+    width: 100%;
+
+    .membersmain {
+        font-family: verdana;
+        text-align: center;
+        color: #4B86CB;
+        border-bottom: $border;
+    }
+}
+
+.tablediv {
+    padding-top: 20px;
+    padding-left: 30px;
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 97%;
+        padding: 20px;
+    }
+
+    td,
+    th {
+        border: $border;
+        text-align: left;
+        padding: 8px;
+    }
+
+}
