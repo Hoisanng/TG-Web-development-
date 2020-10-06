@@ -38,18 +38,18 @@ let tweedenr = 8;
 let optel = eerstenr + tweedenr;
 console.log(optel);
 
- eerstenr = 6;
- tweedenr = 8;
+eerstenr = 6;
+tweedenr = 8;
 let aftrek = eerstenr - tweedenr;
 console.log(aftrek);
 
- eerstenr = 6;
- tweedenr = 8;
+eerstenr = 6;
+tweedenr = 8;
 let vermenigvuldig = eerstenr * tweedenr;
 console.log(vermenigvuldig);
 
- eerstenr = 6;
- tweedenr = 8;
+eerstenr = 6;
+tweedenr = 8;
 let delen = tweedenr / eerstenr;
 console.log(delen);
 
@@ -146,85 +146,4 @@ let str5 = "Hello world!";
 let res4 = str5.substr(1, 4);
 console.log(res4);
 
-// CONDITIONS
-// Opdracht 1
-function checkNumber1() {
-    let value, text;
-  
-    value = document.getElementById("number").value;
-    if(value == 3) {
-        text = "Number is equal to three"
-    } else {
-        text = "Number is not equal to three"
-    }
-    document.getElementById("label").innerHTML = text;
-}
-
-// Opdracht 2
-function checkNumber2() {
-    let value, text;
-   
-    value = document.getElementById("number2").value;
-    if(value >4) {
-        text = "Nummer is groter dan 4"
-    } else {
-        text = "Nummer is kleiner dan 4"
-    }
-    document.getElementById("label2").innerHTML = text;
-}
-
-// Opdracht 3
-function checkNumber3() {
-    let value, text;
-   
-    value = document.getElementById("number3").value;
-    if(value ==11) {
-        text = "Nummer gelijk aan 11"
-    } else {
-        text = "Nummer is groter dan 11"
-    }
-    if(value <11) {
-        text = "Nummer is kleiner dan 11"
-    }
-    document.getElementById("label3").innerHTML = text;
-}
-
-// Opdracht 4 en opdracht 7
-function checkNumber4() {
-    let value, text;
- 
-    value = document.getElementById("number4").value;
-    if(value < 3) {
-        text = "Nummer is kleiner dan 3";
-    } else {
-        text = " ";
-    }
-   
-    document.getElementById("label4").innerHTML = text;
-    }
-
-// Opdracht 5
-{/* < is less than
-<= is less than or equal to */}
-
-// Opdracht 6
-function checkNumber5() {
-    let value, text;
-    
-    value = document.getElementById("number5").value;
-    if(value !=3) {
-        text = "Nummer is kleiner dan 3"
-    }
-   
-    document.getElementById("label5").innerHTML = text;
-    }
-
-// Opdracht 7 - zie opdracht 4
-
-// Opdracht 8
-// When using triple equals === in JavaScript, we are testing for strict equality. This means both the type and the value we are comparing have to be the same.
-// Lets look at a couple examples of strict equality.
-// In this first example we’re comparing the number 5 with the number 5. As expected, true is returned. Both are numbers, and both share the same value of 5.
-// 5 === 5
-// true
 
