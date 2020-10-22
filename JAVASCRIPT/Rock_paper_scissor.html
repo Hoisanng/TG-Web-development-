@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gameCont {
+            width: 800px;
+            height: 350px;
+            background-color: black;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly
+        }
+
+
+
+        .keuze1 {
+            width: 395px;
+            height: 350px;  
+        }
+
+        .keuze2 {
+            width: 395px;
+            height: 350px;
+        }
+
+        .rock__image {
+            background-image: url('./images/rock.png');
+            background-size: cover;
+        }
+
+        .paper__image {
+            background-image: url('./images/paper.png');
+            background-size: cover;
+        }
+
+        .scissor__image {
+            background-image: url('./images/scissor.png');
+            background-size: cover;
+        }
+
+        button {
+            padding: 8px 40px;
+            width: 50px;
+            margin-left: 5px;
+
+        }
+
+        .cont {
+            width: 800px;
+            align-items: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+
+    <div class="gameCont">
+        <div class="keuze1"></div>
+        <div class="keuze2"></div>
+    </div>
+    <div class="cont">
+        <p>Choose Your Hand:</p>
+        <p id='answer'> </p>
+
+        <button onclick="chooseType(0)">Rock</button>
+        <button onclick="chooseType(1)">Paper</button>
+        <button onclick="chooseType(2)">Scissors</button>
+    </div>
+    <script src="./Rock_paper_scissor.js"></script>
+</body>
+
+</html>

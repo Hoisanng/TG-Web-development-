@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    /* Begin */
+    .c, .plusmin, .procent, .delen, .zeven, .acht, .negen, .keer, .vier, 
+    .vijf, .zes, .min, .een, .twee, .drie, .plus, .komma, .is  {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .c:hover, .plusmin:hover, .procent:hover {
+        background-color: #feffff;
+    }
+
+    /* Delen, keer, plus, is  */
+    .delen, .plus, .keer, .min, .is {
+        background-color: rgb(240, 150, 16);
+        border: 1px solid rgb(240, 150, 16);
+    }
+
+    .delen:hover, .plus:hover, .keer:hover, .min:hover, .is:hover {
+        background-color: rgb(236, 202, 150);
+        border: 1px solid rgb(236, 202, 150);
+    }
+   
+    /* Cijfers */
+
+    .nul {
+        width: 104px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .zeven, .acht, .negen, .vier, .vijf, .zes, .een, .twee, .drie, .nul, .komma {
+        background-color: rgb(78, 76, 78);
+        border: 1px solid rgb(78, 76, 78);
+    }
+
+    .zeven:hover, .acht:hover, .negen:hover, .vier:hover, .vijf:hover, .zes:hover,
+    .een:hover, .twee:hover, .drie:hover, .nul:hover, .komma:hover {
+        background-color: rgb(173, 169, 173);
+        border: 1px solid rgb(173, 169, 173);
+    }
+
+    /* Border */
+    .border {
+        width: 250px;
+        height: 330px;
+        border: 2px solid black; 
+        border-radius: 25px;
+        background: black;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        width: 85%;
+        height: 10%;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="border"><br>
+            <input type="text" id="display"><br>
+            <button class="c" onclick="clearScreen()">C</button>
+            <button class="plusmin">+/-</button>
+            <button class="procent">%</button>
+            <button class="delen">÷</button>
+            <button class="zeven" onclick="myFunction('7')">7</button>
+            <button class="acht" onclick="myFunction('8')">8</button>
+            <button class="negen" onclick="myFunction('9')">9</button>
+            <button class="keer">x</button>
+            <button class="vier" onclick="myFunction('4')">4</button>
+            <button class="vijf" onclick="myFunction('5')">5</button>
+            <button class="zes" onclick="myFunction('6')">6</button>
+            <button class="min">-</button>
+            <button class="een" onclick="myFunction('1')">1</button>
+            <button class="twee" onclick="myFunction('2')">2</button>
+            <button class="drie" onclick="myFunction('3')">3</button>
+            <button class="plus" onclick="plus()">+</button>
+            <button class="nul" onclick="myFunction('0')">0</button>
+            <button class="komma" onclick="komma()">,</button>
+            <button class="is" onclick="is()">=</button>
+        </div>
+    </div>
+    <script src="./Eindopdracht_calculator.js"></script>
+</body>
+</html>
