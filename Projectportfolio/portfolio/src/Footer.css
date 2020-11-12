@@ -1,0 +1,40 @@
+.containermain {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.container2 {
+    font-family: helvetica;
+    font-size: 26px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.adres {
+    width: 35%;
+}
+
+.contact1 {
+    width: 35%;
+}
+
+.footer {
+    margin-bottom: 3%;
+}
+.follow {
+    margin-right: 4%;
+}
+
+.contact {
+    margin-left: 4.5%;
+}

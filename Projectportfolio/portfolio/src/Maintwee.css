@@ -1,0 +1,31 @@
+.Maintweecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.vakantie {
+    margin-top: 10%;
+}
+
+.overmijcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.maintweetext {
+    font-family: helvetica;
+    width: 620px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 5%;
+}
+
+.overmijtext {
+    font-size: 40px;
+    font-family: helvetica;
+    font-weight: bold;
+    margin-left: 10%;
+    
+}

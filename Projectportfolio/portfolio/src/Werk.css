@@ -1,0 +1,21 @@
+.werk {
+    font-size: 55px;
+    font-family: helvetica;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 50%;
+    height: 70%;
+}
+
+.hond:hover {
+    content: url("./images/Werk/Threaddesign.JPG");
+  }
+
+.collegas:hover {
+    content: url("./images/Werk/Fooksing.JPG");
+}

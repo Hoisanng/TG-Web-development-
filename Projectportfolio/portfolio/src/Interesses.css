@@ -1,0 +1,15 @@
+.Books {
+    height: 528px;
+}
+
+.Books:hover {
+    content: url("./images/Interesses/Morrie.jpg");
+
+}
+
+.Music {
+    height: 528px;
+}
+.Music:hover {
+    content: url("./images/Interesses/Altj.jpg");
+}
